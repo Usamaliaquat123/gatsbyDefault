@@ -1,0 +1,63 @@
+
+@font-face {
+    font-family: "Harabara Bold";
+    src: url("./../Fonts/Montserrat/Montserrat-Bold.ttf");}
+
+
+.headContainer{
+    padding: 5px 0px;
+    background: white;
+    margin: 0 auto;
+}
+
+.subHeadingStyles{
+    color: #EB5D5F;
+    text-decoration: none;
+    font-size: 12px;
+
+}
+.headerSubHeading{
+    font-size: 12px;
+    padding-top: 4%;
+    color: #EB5D5F;
+    /* padding-bottom:7%; */
+    /* margin-left: 20%; */
+}
+.logoStyle{
+    right: 0;
+    position: absolute;
+}
+
+.donatebtn {
+    background : #EB5D5F;
+    width: 140px;
+    /* margin-left: 80%; */
+    position: absolute;
+    right: 0;
+    height: 70%;
+}
+.donatebtn > p {
+    font-family: 'Harabara Bold';
+    color: aliceblue;
+    font-size: 12px;
+    text-align: center;
+    padding: 10% 0;
+}
+
+
+/* @media (min-width: 5px) and (max-width: 1024px) {
+
+    .donatebtn{
+        height: 
+    }
+    
+  }
+   */
+
+@media screen and (max-width: 577px){
+  .headContainer{
+      display: none;
+
+  }  
+    
+}
