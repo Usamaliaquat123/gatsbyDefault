@@ -1,12 +1,9 @@
 
 @font-face {
   font-family: "Harabara Light";
-  src: url("./Fonts/Lato2OFL/Lato-Light.ttf");
+  src: url("../fonts/Lato2OFL/Lato-Light.ttf");
 }
 
-@font-face{
-  font-family: "Harabara Light";
-}
 html {
   font-family: "Harabara Light",sans-serif;
   -ms-text-size-adjust: 100%;
